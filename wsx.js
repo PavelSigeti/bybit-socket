@@ -145,7 +145,7 @@ function heartbeat() {
         if (!reconnecting) reconnect()
         setTimeout(heartbeat, 10000)
     } else {
-        setTimeout(heartbeat, 3000)
+        setTimeout(heartbeat, 2000)
     }
 }
 
