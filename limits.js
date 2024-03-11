@@ -1,6 +1,6 @@
 export default {
-    'BTCUSDT': 100,
-    'ETHUSDT': 50,
+    'BTCUSDT': 80,
+    'ETHUSDT': 40,
     'BNBUSDT': 35,
     'SOLUSDT': 35,
     'XRPUSDT': 25,
