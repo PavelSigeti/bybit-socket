@@ -1,6 +1,6 @@
 FROM node:18.12
 
-WORKDIR /socket
+WORKDIR /socket-bybit
 
 COPY package*.json ./
 
@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 8100
 
 CMD [ "node", "index.js"]
